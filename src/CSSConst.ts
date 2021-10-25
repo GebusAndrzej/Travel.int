@@ -8,5 +8,14 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const defaultTheme = {
-
+    breakpoints: {
+        tablet: "1155px",
+        mobile: "640px",
+    },
+    colors: {
+        main: "#3075C6",
+        black: "#313131",
+        white: "#FFFFFF",
+        gray: "#AEAEAE"
+    }
 }
