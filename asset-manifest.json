@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Travel.int/static/css/main.8959dba8.chunk.css",
-    "main.js": "/Travel.int/static/js/main.8a324532.chunk.js",
-    "main.js.map": "/Travel.int/static/js/main.8a324532.chunk.js.map",
-    "runtime-main.js": "/Travel.int/static/js/runtime-main.38d7a43c.js",
-    "runtime-main.js.map": "/Travel.int/static/js/runtime-main.38d7a43c.js.map",
-    "static/js/2.7c2d7e72.chunk.js": "/Travel.int/static/js/2.7c2d7e72.chunk.js",
-    "static/js/2.7c2d7e72.chunk.js.map": "/Travel.int/static/js/2.7c2d7e72.chunk.js.map",
-    "static/js/3.493c932e.chunk.js": "/Travel.int/static/js/3.493c932e.chunk.js",
-    "static/js/3.493c932e.chunk.js.map": "/Travel.int/static/js/3.493c932e.chunk.js.map",
+    "main.css": "/Travel.int/static/css/main.620715ae.chunk.css",
+    "main.js": "/Travel.int/static/js/main.3690ecd8.chunk.js",
+    "main.js.map": "/Travel.int/static/js/main.3690ecd8.chunk.js.map",
+    "runtime-main.js": "/Travel.int/static/js/runtime-main.6794ed5c.js",
+    "runtime-main.js.map": "/Travel.int/static/js/runtime-main.6794ed5c.js.map",
+    "static/js/2.e0dc01ce.chunk.js": "/Travel.int/static/js/2.e0dc01ce.chunk.js",
+    "static/js/2.e0dc01ce.chunk.js.map": "/Travel.int/static/js/2.e0dc01ce.chunk.js.map",
+    "static/js/3.b80e8b7a.chunk.js": "/Travel.int/static/js/3.b80e8b7a.chunk.js",
+    "static/js/3.b80e8b7a.chunk.js.map": "/Travel.int/static/js/3.b80e8b7a.chunk.js.map",
     "index.html": "/Travel.int/index.html",
-    "static/css/main.8959dba8.chunk.css.map": "/Travel.int/static/css/main.8959dba8.chunk.css.map",
-    "static/js/2.7c2d7e72.chunk.js.LICENSE.txt": "/Travel.int/static/js/2.7c2d7e72.chunk.js.LICENSE.txt",
+    "static/css/main.620715ae.chunk.css.map": "/Travel.int/static/css/main.620715ae.chunk.css.map",
+    "static/js/2.e0dc01ce.chunk.js.LICENSE.txt": "/Travel.int/static/js/2.e0dc01ce.chunk.js.LICENSE.txt",
     "static/media/bannerimg.3b55bc9e.png": "/Travel.int/static/media/bannerimg.3b55bc9e.png",
     "static/media/callendar.712ec531.svg": "/Travel.int/static/media/callendar.712ec531.svg",
     "static/media/fbicon.1f1bb850.svg": "/Travel.int/static/media/fbicon.1f1bb850.svg",
     "static/media/instagramicon.8b779bbc.svg": "/Travel.int/static/media/instagramicon.8b779bbc.svg",
     "static/media/location.1496674e.svg": "/Travel.int/static/media/location.1496674e.svg",
     "static/media/qrboxbg.5d74344e.png": "/Travel.int/static/media/qrboxbg.5d74344e.png",
+    "static/media/search.b8106ad0.svg": "/Travel.int/static/media/search.b8106ad0.svg",
     "static/media/telegramicon.b0eda6cf.svg": "/Travel.int/static/media/telegramicon.b0eda6cf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.38d7a43c.js",
-    "static/js/2.7c2d7e72.chunk.js",
-    "static/css/main.8959dba8.chunk.css",
-    "static/js/main.8a324532.chunk.js"
+    "static/js/runtime-main.6794ed5c.js",
+    "static/js/2.e0dc01ce.chunk.js",
+    "static/css/main.620715ae.chunk.css",
+    "static/js/main.3690ecd8.chunk.js"
   ]
 }
