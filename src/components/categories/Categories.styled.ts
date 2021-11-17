@@ -6,9 +6,24 @@ export const CategoriesWrapper = styled.div`
     margin:auto;
     background: #F9FBFF;
     border-radius: 30px;
-    padding: 70px 50px;
+    padding: 26px 50px;
     display:flex;
     flex-direction: column;
+
+    .slick-arrow{
+      display:none;
+      /* background-color:red;
+      position: absolute;
+      top:-100px;
+      right:0;
+      width:40px;
+      height:40px; */
+
+      :before{
+          font-size: 40px;
+      }
+
+    }
 `;
 
 export const CategoriesHeader = styled.div`
@@ -47,6 +62,27 @@ export const Desc = styled.p`
     color: #AEAEAE;
 `;
 
-export const CategoryImages = styled.div`
+export const ButtonBox = styled.div`
+    display:flex;
+    justify-content: flex-end;
+    gap:15px;
+`;
 
+export const Arrow = styled.button`
+    width:40px;
+    height:40px;
+    color:white;
+    border-radius: 50%;
+    background-color:#3075C6;
+    border: 2px solid #3075C6;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align:center;
+    line-height: 35px;
+    cursor: pointer;
+
+    &.end{
+        background-color:transparent;
+        color: #3075C6;
+    }
 `;
