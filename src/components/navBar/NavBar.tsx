@@ -15,10 +15,10 @@ const NavBar = (): JSX.Element => {
                 <NavLink to="#">Contact</NavLink>
             </Menu>
             <NavBar_ButtonBox>
-                <NavBar_Button variant="transparent">
+                <NavBar_Button to="/login" variant="transparent">
                     <a>Log in</a>
                 </NavBar_Button>
-                <NavBar_Button variant="primary">
+                <NavBar_Button to="/login" variant="primary">
                     Sign up
                 </NavBar_Button>
             </NavBar_ButtonBox>
