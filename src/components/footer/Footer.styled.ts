@@ -22,6 +22,13 @@ export const FooterGrid = styled.div`
     a{
         margin:10px;
     }
+
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+        grid-template-columns: auto auto auto;
+        grid-template-areas: 
+            "a a b"
+            "c d e";
+    }
 `;
 
 export const FooterItem = styled(NavLink)`

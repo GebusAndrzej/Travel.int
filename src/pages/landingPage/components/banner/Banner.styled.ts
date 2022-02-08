@@ -15,6 +15,11 @@ export const LandingBanner = styled.div`
     flex-direction: column;
     align-items: center;
 
+    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+        width:100%;
+        margin-bottom:220px;
+    }
+
     :before{
         content:'';
         z-index:-1;
@@ -45,7 +50,6 @@ export const LandingBanner = styled.div`
         font-weight: 500;
         font-size: 18px;
         line-height: 25px;
-
         color: ${props => props.theme.colors.main};
 
     }
@@ -57,10 +61,12 @@ export const LandingBanner = styled.div`
         font-weight: 900;
         font-size: 56px;
         line-height: 76px;
-
-        /* Black main */
-
+        trasnsition-duration:.5s;
         color: ${props => props.theme.colors.black};
+
+        @media (max-width: ${props => props.theme.breakpoints.tablet}){
+            font-size:2.5em;
+        }
     }
 
 `;
@@ -85,12 +91,30 @@ export const SearchBanner = styled.div`
     gap:25px;
     padding: 20px;
     box-sizing:border-box;
+
+    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+        width: min(820px, 100%);
+        gap: .5%
+    }
+
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+        width: min(820px, 90%);
+        flex-direction:column;
+        height:auto;
+    }
 `;
 
 export const SearchBarSeparator = styled.div`
     height: 66px;
     border: none;
     border-right: 1px solid ${props => props.theme.colors.gray};
+
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+        transform: rotate(90deg);
+        width:0;
+        height:0;
+        margin:10px;
+    }
 
 `;
 
@@ -113,6 +137,10 @@ export const SearchItem = styled.div`
             line-height: 33px;
 
             color: ${props => props.theme.colors.black};   
+
+            @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+                font-size: 1.4rem;
+            }
         }
 
         .desc{
@@ -182,4 +210,9 @@ export const BannerSearchButton = styled.button`
     background:${props => props.theme.colors.main};
     cursor: pointer;
     border-radius: 10px;
+
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+        margin-top:15px;
+        width:200px;
+    }
 `;

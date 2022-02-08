@@ -17,7 +17,7 @@ function Categories(): JSX.Element {
                     <Arrow onClick={() => SliderRef.current?.next()}>⭢</Arrow>
                 </ButtonBox>
                 <div></div>
-                <Desc>You don`t have to look for your tour for a long<br /> time. We have grouped them by category</Desc>
+                <Desc>You don`t have to look for your tour for a long time. We have grouped them by category</Desc>
 
 
             </CategoriesHeader>

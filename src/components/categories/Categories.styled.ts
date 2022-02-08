@@ -53,6 +53,7 @@ export const Title = styled.span`
 `;
 
 export const Desc = styled.p`
+    max-width: 350px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;

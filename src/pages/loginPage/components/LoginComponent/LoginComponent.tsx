@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LoginComponent = () => {
+const LoginComponent = (): JSX.Element => {
     return (
         <div>
             Login
