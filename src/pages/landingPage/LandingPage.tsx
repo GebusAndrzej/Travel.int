@@ -5,6 +5,7 @@ import QRComponent from '../../components/qr/QRComponent'
 import Categories from '../../components/categories/Categories'
 import NavBar from '../../components/navBar/NavBar'
 import Banner from './components/banner/Banner'
+import WhyUs from './components/whyUs/WhyUs'
 import PopularSearch from './components/popularSearch/PopularSearch'
 
 const LandingPage = (): JSX.Element => {
@@ -14,6 +15,7 @@ const LandingPage = (): JSX.Element => {
             <Banner></Banner>
             <PopularSearch></PopularSearch>
             <Categories></Categories>
+            <WhyUs></WhyUs>
             <QRComponent></QRComponent>
             <Footer></Footer>
         </>
