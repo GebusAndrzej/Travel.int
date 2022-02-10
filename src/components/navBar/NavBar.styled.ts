@@ -10,8 +10,9 @@ export const Nav = styled.header`
     grid-template-areas: "logo menu login";
     align-items: center;
 
-    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
         grid-template-columns: 1fr 1fr;
+        gap: 20px;
         grid-template-areas: 
             "logo  login"
             "menu menu";
@@ -24,6 +25,10 @@ export const Menu = styled.div`
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+        justify-content: space-between;
+    }
 
     a{
         font-family: Nunito Sans;
