@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import NavBar from '../../components/navBar/NavBar'
-import LoginComponent from './components/LoginComponent/LoginComponent'
+import LoginBanner from './components/LoginBanner/LoginBanner'
 
 function LoginPage(): JSX.Element {
     return (
         <>
             <NavBar></NavBar>
-            <LoginComponent></LoginComponent>
+            <LoginBanner></LoginBanner>
             <Footer></Footer>
         </>
     )
