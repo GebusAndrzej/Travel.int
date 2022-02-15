@@ -53,7 +53,7 @@ export const SearchChip = styled.div`
     color: ${props => props.theme.colors.gray};
     padding: 7px 22px;
 
-    border: 2px solid #AEAEAE;
+    border: 2px solid ${props => props.theme.colors.gray};
     box-sizing: border-box;
     border-radius: 15px;
 

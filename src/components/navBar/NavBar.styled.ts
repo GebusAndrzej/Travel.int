@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled, { css } from "styled-components";
 
-export const Nav = styled.header`
+export const Nav = styled.nav`
     min-height:36px;
     margin:45px 60px;
     /* max-width: ${props => props.theme.breakpoints.tablet}; */
@@ -16,7 +16,9 @@ export const Nav = styled.header`
         grid-template-areas: 
             "logo  login"
             "menu menu";
-
+        margin: 15px 15px;
+        gap: 5px;
+        row-gap: 25px;
     }
 `;
 
@@ -65,7 +67,7 @@ export const NavBar_Button = styled(NavLink) <{ variant: "primary" | "transparen
     text-decoration:none;
 
     ${props => props.variant == "primary" && css`
-        color:white;
+        color:${props => props.theme.colors.white};
         background-color: ${props => props.theme.colors.main};
     `}
 

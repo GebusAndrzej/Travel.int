@@ -60,7 +60,7 @@ export const Desc = styled.p`
     font-size: 16px;
     line-height: 22px;
 
-    color: #AEAEAE;
+    color: ${props => props.theme.colors.gray};
 `;
 
 export const ButtonBox = styled.div`
@@ -72,7 +72,7 @@ export const ButtonBox = styled.div`
 export const Arrow = styled.button`
     width:40px;
     height:40px;
-    color:white;
+    color:${props => props.theme.colors.white};
     border-radius: 50%;
     background-color:#3075C6;
     border: 2px solid #3075C6;
