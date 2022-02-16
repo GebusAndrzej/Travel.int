@@ -4,7 +4,7 @@ import { ReactComponent as SmileSVG } from "../../../../assets/svg/smile.svg"
 import { ReactComponent as SendSVG } from "../../../../assets/svg/send.svg"
 import { ReactComponent as FlagSVG } from "../../../../assets/svg/flag.svg"
 
-const WhyUs = () => {
+const WhyUs = (): JSX.Element => {
     return (
         <WhyUsWrapper>
             <ImageBox>

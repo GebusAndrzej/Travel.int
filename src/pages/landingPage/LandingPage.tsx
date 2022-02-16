@@ -7,8 +7,11 @@ import NavBar from '../../components/navBar/NavBar'
 import Banner from './components/banner/Banner'
 import WhyUs from './components/whyUs/WhyUs'
 import PopularSearch from './components/popularSearch/PopularSearch'
+import LocationGridComponent from '../../components/locationGrid/LocationGridComponent'
 
-const LandingPage = (): JSX.Element => {
+import { mainPageLocations } from '../../data/locationsData'
+
+const LandingPage = (): JSX.Element => {    
     return (
         <>
             <NavBar></NavBar>
@@ -16,6 +19,7 @@ const LandingPage = (): JSX.Element => {
             <PopularSearch></PopularSearch>
             <Categories></Categories>
             <WhyUs></WhyUs>
+            <LocationGridComponent locations={mainPageLocations}></LocationGridComponent>
             <QRComponent></QRComponent>
             <Footer></Footer>
         </>

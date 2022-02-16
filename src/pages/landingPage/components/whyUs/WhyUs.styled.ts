@@ -63,7 +63,7 @@ export const BannerTextbox = styled.div`
         position: absolute;
         left:-20px;
         bottom:0;
-        width: 605px;
+        width: min(605px, 100vw);
         height: 590px;
         background: url(${bgPoints});
         z-index:-1;
