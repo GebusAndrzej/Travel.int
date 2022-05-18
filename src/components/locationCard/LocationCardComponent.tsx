@@ -7,7 +7,7 @@ import { ReactComponent as SVGCoin } from '../../assets/svg/coin.svg'
 
 const LocationCardComponent = (props: LocationModel): JSX.Element => {
     return (
-        <LocationWrapper>
+        <LocationWrapper to="/location">
             <figure><img src={props.img}/></figure>
             <LocTitle>{props.title}</LocTitle>
             <LocDescription>{props.description}</LocDescription>

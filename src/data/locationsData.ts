@@ -98,3 +98,18 @@ export const searchPageLocations: LocationModel[] = [
     allLocations[3],
     allLocations[1],
 ]
+
+export const locationPageLocations: LocationModel[] = [
+    allLocations[0],
+    allLocations[1],
+    allLocations[2],
+    allLocations[3],
+    allLocations[4],
+    allLocations[5],
+    allLocations[6],
+    allLocations[7],
+    allLocations[1],
+    allLocations[3],
+    allLocations[0],
+    allLocations[2],
+]

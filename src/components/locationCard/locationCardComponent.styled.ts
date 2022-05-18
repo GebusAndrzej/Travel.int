@@ -1,6 +1,7 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-export const LocationWrapper = styled.div`
+export const LocationWrapper = styled(NavLink)`
     position:relative;
 
     background: #FFFFFF;
@@ -14,6 +15,8 @@ export const LocationWrapper = styled.div`
 
     padding-bottom: 10px;
     cursor:pointer;
+
+    text-decoration: none;
 
     ::after{
         content: 'Book Trip Now ->';

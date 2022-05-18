@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const CategoriesWrapper = styled.div`
-    margin-top:30px;
-    max-width: ${props => props.theme.breakpoints.tablet};
     margin:auto;
+    margin-top:40px;
+    max-width: ${props => props.theme.breakpoints.tablet};
+    margin-bottom: 83px;
     background: #F9FBFF;
     border-radius: 30px;
     padding: 26px 50px;

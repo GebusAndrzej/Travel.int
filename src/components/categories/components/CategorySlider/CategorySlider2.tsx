@@ -52,7 +52,7 @@ export default class CategorySlider2 extends Component {
             <Slider {...this.settings} ref={c => (this.slider = c)}>
                 {this.cat.map(({ key, val, img }) => {
                     return (
-                        <Fig key={key}>
+                        <Fig key={key} onClick={() => {console.log("click")}}>
                             <img src={img}></img>
 
                             <figcaption>

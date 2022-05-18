@@ -50,7 +50,7 @@ const Banner = (): JSX.Element => {
                 </SearchItem>
 
                 <div>
-                    <BannerSearchButton>
+                    <BannerSearchButton to="/search">
                         <SVGSearch />
                     </BannerSearchButton>
                 </div>

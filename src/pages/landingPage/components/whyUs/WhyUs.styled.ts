@@ -9,7 +9,7 @@ export const WhyUsWrapper = styled.div`
 
     position: relative;
     margin-bottom:134px;
-    margin-top:183px;
+    margin-top:100px;
     
     display:grid;
     grid-template-columns: 1fr 1fr;

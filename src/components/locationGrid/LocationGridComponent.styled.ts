@@ -21,3 +21,23 @@ export const LocationGrid = styled.div`
         gap: 10px;
     }
 `;
+
+export const MoreLocationButton = styled.button`
+    width: 240px;
+    height:60px;
+    color:white;
+    cursor:pointer;
+
+    outline:none;
+    border:none;
+
+    background: ${props => props.theme.colors.main};
+    border-radius: 10px;
+    margin:auto;
+    margin-bottom: 80px;
+
+    font-size:1.3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+`

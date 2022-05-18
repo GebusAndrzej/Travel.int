@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import bg from '../../../../assets/images/bannerimg.png'
 
@@ -203,7 +204,7 @@ export const SearchItemIcon = styled.div`
             }
 `;
 
-export const BannerSearchButton = styled.button`
+export const BannerSearchButton = styled(NavLink)`
     padding: 22px 36px;
     outline:none;
     border:none;

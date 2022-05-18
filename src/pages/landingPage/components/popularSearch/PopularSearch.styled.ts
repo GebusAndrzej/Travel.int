@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import img from '../../../../assets/svg/searchDots.svg'
 
@@ -43,12 +44,14 @@ export const SearchChipsBox = styled.div`
     flex-wrap: wrap;
     box-sizing:border-box;
 `;
-export const SearchChip = styled.div`
+
+export const SearchChip = styled(NavLink)`
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 33px;
+    text-decoration: none;
 
     color: ${props => props.theme.colors.gray};
     padding: 7px 22px;

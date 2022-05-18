@@ -24,7 +24,7 @@ const PopularSearch = (): JSX.Element => {
 
             <SearchChipsBox>
                 {searchs.map(x => (
-                    <SearchChip key={Math.random()}>{x}</SearchChip>
+                    <SearchChip key={Math.random()} to="/search">{x}</SearchChip>
                 ))}
             </SearchChipsBox>
         </PopularSearchWrapper>
